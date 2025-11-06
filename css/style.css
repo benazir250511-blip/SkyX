@@ -208,3 +208,20 @@ body {
     gap: 10px;
   }
 }
+
+
+@media(max-width: 640px) {
+  .tariffs-item {
+    width: 100%;
+  }
+  .tariffs-box {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    height: 270px;
+  }
+
+  .tariffs-item-small {
+    width: 100%;
+  }
+}
