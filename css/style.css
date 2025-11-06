@@ -177,6 +177,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .lang ul {
@@ -187,5 +189,22 @@ body {
   & li{
     cursor: pointer;padding: 3px 15px;
     color: #131313;
+  }
+}
+
+@media(max-width: 768px) {
+  .tariffs-wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+  } 
+  .wrap {
+    justify-content: center;
+  }
+
+  .footer-wrap {
+    gap: 10px;
   }
 }
