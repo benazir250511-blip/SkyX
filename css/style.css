@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: url(../img/1234.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.glass {
+  background-color: rgb(255 255 255 / 50%);
+  border-radius: 20px;
+  backdrop-filter: blur(1px);
+  border: 2px solid #fff;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.location {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 15px;
+
+  & img {
+    width: 20px;
+  }
+
+  & h4 {
+    font-size: 18px;
+    color: #131313;
+    font-weight: 300;
+  }
+}
+
+.header {
+  margin-top: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: baseline;
+}
+
+.logo {
+  & h1 {
+    font-size: 36px;
+  }
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+
+  & a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.hero {
+  margin: 40px 0;
+}
+
+.hero-img {
+  height: 290px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.tariffs {
+  margin-bottom: 40px;
+}
+
+.tariffs-wrap {
+  display: flex;
+  gap: 20px;
+}
+
+.tariffs-item {
+  width: 300px;
+  height: 550px;
+  border-radius: 20px;
+}
+
+.tariffs-item.active {
+  border: 4px solid #1e0072;
+}
+
+.tariffs-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 550px;
+}
+
+.tariffs-item-small {
+  width: 300px;
+  height: 270px;
+  border-radius: 20px;
+  padding: 16px;
+
+  & h4 {
+    font-size: 24px;
+    color: #000;
+  }
+}
+
+.advertising {
+  margin-bottom: 40px;
+}
+
+.advertising-img {
+  background-color: rgb(205 253 86 / 83%);
+  border-radius: 20px;
+  width: 100%;
+  height: 180px;
+}
+
+.footer {
+  margin-bottom: 20px;
+}
+
+.footer-img {
+  height: 250px;
+  width: 700px;
+  border-radius: 20px;
+      background-color: rgb(15 42 242 / 84%);
+}
+
+.footer-wrap {
+  display: flex;
+  gap: 100px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.num {
+  & span {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+.num-info {
+  & span {
+    font-weight: 100;
+  }
+}
+
+
+.footer-btn {
+  background-color: #e4e4e4;
+  color: #000;
+  border-radius: 20px;
+  padding: 15px 40px;
+  border: none;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.lang ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+
+  & li{
+    cursor: pointer;padding: 3px 15px;
+    color: #131313;
+  }
+}
